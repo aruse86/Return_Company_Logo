@@ -11,17 +11,16 @@ microservice, please follow the steps outlined below:
     is not installed on your computer, install Pip from
     https://pip.pypa.io/en/stable/installation/
 
-3)  Install Flask using the following command in a terminal (or command prompt)
-    window: pip install Flask
-
-4)  The Flask application will need to run in a virtual environment so install
+3)  The Flask application will need to run in a virtual environment so install
     one using the following command in a terminal (or command prompt)
-    window: pip install pipenv
+    `pip install pipenv`
 
-5)  To run the microservice, open the directory where the microservice files Return_Logo.py,
-    Request_Logo.py, and Test_Script.py are located in your preferred IDE.
+4)  Install Dependencies
+    `pip install -r requirements.txt`
 
-9)  Run Return_Logo.py, and Request_Logo.py.
+5) To run the microservice, open the directory where the microservice files Return_Logo.py,
+   Request_Logo.py, and Test_Script.py are located in your preferred IDE.
+   `python Return_Logo.py`
 
-10) Open Test_Script.py and edit the company name in the payload variable (it is initially set to
+6) Open Test_Script.py and edit the company name in the payload variable (it is initially set to
     'meta', then click run. The microservice will return a result in the terminal window.
