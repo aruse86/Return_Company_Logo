@@ -13,7 +13,11 @@ microservice, please follow the steps outlined below:
 
 3)  The Flask application will need to run in a virtual environment so install
     one using the following command in a terminal (or command prompt)
-    `pip install pipenv`
+    `python -m venv env`
+
+4) Activate the vitrual environment usint the following command (Note: (env) 
+   should appear in the terminal prompts after this step)
+   `env/Scripts/Activate`
 
 4)  Install Dependencies
     `pip install -r requirements.txt`
@@ -23,4 +27,4 @@ microservice, please follow the steps outlined below:
    `python Return_Logo.py`
 
 6) Open Test_Script.py and edit the company name in the payload variable (it is initially set to
-    'meta', then click run. The microservice will return a result in the terminal window.
+    'meta') then click run. The microservice will return a result in the terminal window.
